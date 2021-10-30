@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 15px;
+    font-size: 24px;
+    margin-right: 42px;
+}
+#logo img{
+    height: 50px;
+    filter: invert(1);
+
+}
+
+#navbar{
+    background-color: black;
+    padding: 8px 9px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 11px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    color:crimson
+}
+
+#introSection{
+    color: white;
+    height: 300px;
+    font-weight: bold;
+    font-size: 35px;
+    background: url("../static/img.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#introSection div.small{
+    font-size: 27px;
+}
+
+#missionSection{
+    height: 300px;
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.card{
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 30%;
+    height: 200px;
+    margin: 10px 20px;
+    display: inline-block
+
+}
+.card h3{
+    text-align: center;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 0 15px;
+}
+
+.card-img img{
+    height: 80px;
+}
+
+.card-content{
+    padding: 0 20px;
+}
+
+.card-content p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+    margin: auto;
+}
+
+#sponsorsSection{
+    height: 245px;
+    background-color: rgb(86, 248, 134);
+
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 15px;
+    font-size: bold;
+    color: black;
+}
+
+#sponsor{
+    max-width: 1000px;
+    height: 200px;
+    margin: 17px auto;
+}
+
+.spimg{
+    margin: 14px 60px;
+    height: 130px;
+}
+
+#footer{
+    height: 35px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}

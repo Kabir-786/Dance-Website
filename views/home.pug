@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts 
+    script(src="../static/index.js") 
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection
+        div.h1 Welcome to Kabir's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection
+        h2 Our Mission 
+        div.card
+            h3 This is paragarph 
+            div.card-box
+                div.card-img
+                    img(src="/static/photo/logo.png")
+
+            div.card-content
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        div.card
+            h3 This is paragarph 
+            div.card-box
+                div.card-img
+                    img(src="/static/photo/logo.png")
+
+            div.card-content
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        div.card
+            h3 This is paragarph 
+            div.card-box
+                div.card-img
+                    img(src="/static/photo/logo.png")
+
+            div.card-content
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsor
+            img(src="/static/photo/logo1.png", alt="Sponsor Image", class="spimg")
+            img(src="/static/photo/logo2.png", alt="Sponsor Image", class="spimg")
+            img(src="/static/photo/logo3.png", alt="Sponsor Image", class="spimg")
+            img(src="/static/photo/logo4.png", alt="Sponsor Image", class="spimg")

@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    title Kabir Dance Academy
+    style
+      include ../static/style.css
+      body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/photo/logo.png")
+                | KDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    section#introSection
+        div.h1 Welcome to Kabir's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection
+        h2 Our Mission 
+        div.card
+            h3 This is paragarph 
+            div.card-box
+                div.card-img
+                    img(src="/static/photo/logo.png")
+
+            div.card-content
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        div.card
+            h3 This is paragarph 
+            div.card-box
+                div.card-img
+                    img(src="/static/photo/logo.png")
+
+            div.card-content
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        div.card
+            h3 This is paragarph 
+            div.card-box
+                div.card-img
+                    img(src="/static/photo/logo.png")
+
+            div.card-content
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsor
+            img(src="/static/photo/logo1.png", alt="Sponsor Image", class="spimg")
+            img(src="/static/photo/logo2.png", alt="Sponsor Image", class="spimg")
+            img(src="/static/photo/logo3.png", alt="Sponsor Image", class="spimg")
+            img(src="/static/photo/logo4.png", alt="Sponsor Image", class="spimg")
+    footer#footer
+        | Copyright @ 2021 KabirDanceAcademy.com | All rights reserved
+    script 
+        include ../static/script.js
